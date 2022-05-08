@@ -3,9 +3,11 @@
     font-family: bold;
     font-size: 32px;
     line-height: 150%;
+    
 }
 body{
-    background-color: #BBBBBB;
+    background: rgb(203, 222, 243)
+    
 }
 .main{
     display: flex;
@@ -100,18 +102,19 @@ textarea::placeholder {
     margin-left: 85px;
     margin-top: 43px;
     padding: 5px 120px 0;
-    background: #b4bcc7;
+    background: #D8DFE8;
     color: rgb(68, 66, 66);
     border: 1px solid #0A3871;
     cursor: pointer;
 
 }
+
 footer p{
     position:absolute;
     padding: 60px 90px;
     font-weight: bold;
     color: #494242;
-
+    
 
 }
 .github{
@@ -121,6 +124,7 @@ footer p{
 }
 footer img{
     cursor: pointer;
+    
 }
 
 
