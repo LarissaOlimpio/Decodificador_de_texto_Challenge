@@ -14,7 +14,9 @@ body{
 }
 .logo{
     padding-top: 40px;
+    cursor: pointer;
 }
+
 textarea{
     resize: none;
     border-radius: 24px;
@@ -51,6 +53,7 @@ textarea::placeholder {
     width: 328px;
     box-sizing: border-box;
     transition: 1s;
+    cursor: pointer;
 }
 .botoes:hover{
     font-size: 35px;
@@ -69,6 +72,7 @@ textarea::placeholder {
     margin-left: 370px;
     padding: 5px 70px 0;
 
+
 }
 
 #resultado{
@@ -78,6 +82,7 @@ textarea::placeholder {
     text-align: center;
     padding: 50px 0px;
     box-sizing: border-box;
+    
 }
 
 #resultado:placeholder-shown{
@@ -98,6 +103,7 @@ textarea::placeholder {
     background: #b4bcc7;
     color: rgb(68, 66, 66);
     border: 1px solid #0A3871;
+    cursor: pointer;
 
 }
 footer p{
@@ -111,6 +117,7 @@ footer p{
 .github{
     position: absolute;
     padding: 40px 330px;
+    cursor: pointer;
 }
 
 
