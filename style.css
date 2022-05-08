@@ -117,6 +117,9 @@ footer p{
 .github{
     position: absolute;
     padding: 40px 330px;
+    
+}
+footer img{
     cursor: pointer;
 }
 
