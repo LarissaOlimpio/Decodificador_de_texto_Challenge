@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <header>
+        
+        <p><a href="https://www.alura.com.br/"  target="_blank"><img class ="logo"src="imagens/Logo.png" alt="logo-alura" > </a></p>
+        
+    </header>
+
+    <main class="main">
+
+        <section class="principal">
+
+            <!--onde o usuário digita a sua mensagem-->
+            <textarea class="texto-entrada" name="input-texto" id="input-texto" maxlength="120" cols="40" rows="6" placeholder="Digite aqui"></textarea>
+            
+            <div class="informacao">
+                <img class= "exclamacao"src="imagens/exclamacao.png" alt="ponto de exclamação">
+                <label for="input-texto">Apenas letras minúsculas e sem acento</label>
+            </div>
+
+             <!--botões-->
+            <div class="button">      
+                <input class="botoes" type="submit" value="criptografar" id="botaoCriptografar">
+                <input class="botoes" type="submit" value="descriptografar" id="botaoDesincriptografar">
+            </div>
+
+        </section>
+
+        <section class="resultado-tela">
+           
+            <textarea classe="resultado-msg"name="resultado" id="resultado" cols="20" rows="11"placeholder="Nenhuma mensagem encontrada"></textarea>
+            <input class="botoes" type="submit" value="copiar" id="botaoCopia">
+            
+        </section> 
+        
+    </main>  
+    <footer>
+        
+        <p>Desenvolvido por Larissa Olimpio</p>
+
+        <p class="github"><a href="https://github.com/LarissaOlimpio" target="_blank" rel="externo"><img src="imagens/logo-git_menor.png" alt="ícone do github"></a></p>
+        
+    </footer>
+    <script src="script.js" defer></script>  
+</body>
+</html>
