@@ -44,7 +44,7 @@ function criptografar(){
     var resultado4 = resultado3.replaceAll("u", "ufat");
     var resultado5 = resultado4.replaceAll("o", "ober");
 
-    resultado.value = resultado5;
+    resultado.value = resultado5.toLowerCase();
     
 }
 
@@ -56,7 +56,7 @@ function desincriptografar(){
     var resultado4 = resultado3.replaceAll("ufat", "u");
     var resultado5 = resultado4.replaceAll("ober", "o");
 
-    resultado.value = resultado5;
+    resultado.value = resultado5.toLowerCase();
 
 }
 function limpaTela(){
