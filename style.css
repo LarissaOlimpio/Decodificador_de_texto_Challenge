@@ -3,7 +3,6 @@
     font-family: bold;
     font-size: 32px;
     line-height: 150%;
-    
 }
 body{
     background: rgb(203, 222, 243)
@@ -42,13 +41,11 @@ textarea::placeholder {
     display: block;
     margin-top: 166px;
     font-size: 15px;
-    
 }
 .botoes{
-    
     display: flex;
-    position: absolute;
     flex-direction: row;
+    position: absolute;
     margin-top: 10px;
     border-radius: 24px;
     height: 67px;
@@ -60,23 +57,18 @@ textarea::placeholder {
 .botoes:hover{
     font-size: 35px;
 }
-
 #botaoCriptografar{
     background-color: #0A3871;
     color: white;
     padding: 5px 70px 0;
     box-sizing: border-box;
 }
-
 #botaoDesincriptografar{
     background: #D8DFE8;
     color: rgb(68, 66, 66);
     margin-left: 370px;
     padding: 5px 70px 0;
-
-
 }
-
 #resultado{
     
     margin-top: 20px;
@@ -84,15 +76,12 @@ textarea::placeholder {
     text-align: center;
     padding: 50px 0px;
     box-sizing: border-box;
-    
 }
-
 #resultado:placeholder-shown{
     
     background-image: url("imagens/boneco.png");
     background-repeat: no-repeat;
     background-position: left;
-	
 }
 #resultado:focus{
     outline: 0;
@@ -106,7 +95,6 @@ textarea::placeholder {
     color: rgb(68, 66, 66);
     border: 1px solid #0A3871;
     cursor: pointer;
-
 }
 
 footer p{
@@ -114,17 +102,13 @@ footer p{
     padding: 60px 90px;
     font-weight: bold;
     color: #494242;
-    
-
 }
 /*imagem do gitHub*/
 .github{ 
     padding: 40px 330px;
-    
 }
 footer img{
     cursor: pointer;
-    
 }
 
 
