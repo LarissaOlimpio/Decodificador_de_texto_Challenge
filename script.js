@@ -60,6 +60,7 @@ function copiarTexto() {
   limpaTela();
   input.focus();
 }
+
 botaoCriptografar.onclick = criptografar;
 botaoDesincriptografar.onclick = desincriptografar;
 botaoCopia.onclick = copiarTexto;

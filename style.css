@@ -16,7 +16,6 @@ body {
   padding-top: 40px;
   cursor: pointer;
 }
-
 textarea {
   resize: none;
   border-radius: 24px;
@@ -57,7 +56,6 @@ textarea::placeholder {
 .botoes:hover {
   font-size: 35px;
 }
-
 #botaoCriptografar {
   background-color: #0a3871;
   color: white;
