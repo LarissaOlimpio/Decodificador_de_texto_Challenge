@@ -40,7 +40,6 @@ function criptografar() {
 
   resultado.value = resultado5.toLowerCase();
 }
-
 function desincriptografar() {
   let texto = textoArea.value;
   let resultado1 = texto.replaceAll("enter", "e");
