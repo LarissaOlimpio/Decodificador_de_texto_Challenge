@@ -12,7 +12,7 @@ Até o momento o projeto não esta responsivo, porém agora que possuo um bom co
 | -------------  | --- |
 | :sparkles: Nome        | **Decodificador de Textos**
 | :label: Tecnologias | JavaScript, HTML5, CSS3 (tecnologias utilizadas)
-| :rocket: URL         |https://larissaolimpio.github.io/Decodificador_de_texto_Challenge/
+| :rocket: URL         | decodificador-de-texto-challenge.vercel.app
 
 ![codificador](https://user-images.githubusercontent.com/50180854/200090307-f9036ae7-009e-4926-beb8-2bae65ca2943.png#vitrinedev)
 
