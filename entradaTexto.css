@@ -1,0 +1,24 @@
+.principal{
+    display: flex;
+    flex-direction: column;
+}
+.texto-entrada {
+    background: none;
+    resize: none;
+    border-radius: 24px;
+    border: none;
+    color: var(--azulEscuro);
+  }
+.texto-entrada:focus {
+    outline: 0; /*tirando contorno do textArea*/
+}
+.texto-entrada::placeholder {
+    color: var(--azulEscuro);
+}
+.informacao{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    gap: 0.3rem;
+    color: var(--cinza);
+}

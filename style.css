@@ -3,111 +3,30 @@
   font-family: bold;
   font-size: 32px;
   line-height: 150%;
+  box-sizing: border-box;
+}
+:root{
+  --azulBackground:rgb(203, 222, 243);
+  --azulEscuro:#0a3871;
+  --branco:#ffffff;
+  --cinza:rgb(68, 66, 66);
+  --azulClaro:#d8dfe8;
 }
 body {
-  background: rgb(203, 222, 243);
+  background: var(--azulBackground);
 }
-.main {
+main {
   display: flex;
-  margin-left: 100px;
-  margin-bottom: 50px;
+  align-items: center;
+  justify-content: space-around;
+  
 }
 .logo {
-  padding-top: 40px;
+  padding-top: 2rem;
   cursor: pointer;
 }
-
-textarea {
-  resize: none;
-  border-radius: 24px;
-  border: none;
-  color: #0a3871;
-}
-textarea::placeholder {
-  color: #0a3871;
-}
-.texto-entrada {
-  background: none;
-  margin-top: 80px;
-  padding: 50px;
-  box-sizing: border-box;
-}
-.texto-entrada:focus {
-  outline: 0; /*tirando contorno do textArea*/
-}
-.informacao {
-  /*imagem do ponto de exclamação*/
-  display: block;
-  margin-top: 166px;
-  font-size: 15px;
-}
-.botoes {
+.footer{
   display: flex;
-  position: absolute;
-  flex-direction: row;
-  margin-top: 10px;
-  border-radius: 24px;
-  height: 67px;
-  width: 328px;
-  box-sizing: border-box;
-  transition: 1s;
-  cursor: pointer;
-  text-decoration: none;
-}
-.botoes:hover {
-  font-size: 35px;
-}
-
-#botaoCriptografar {
-  background-color: #0a3871;
-  color: white;
-  padding: 5px 70px 0;
-  box-sizing: border-box;
-}
-#botaoDesincriptografar {
-  background: #d8dfe8;
-  color: rgb(68, 66, 66);
-  margin-left: 370px;
-  padding: 5px 70px 0;
-}
-
-#resultado {
-  margin-top: 20px;
-  margin-left: 90px;
-  text-align: center;
-  padding: 50px 0px;
-  box-sizing: border-box;
-}
-
-#resultado:placeholder-shown {
-  background-image: url("assets/boneco.png");
-  background-repeat: no-repeat;
-  background-position: left;
-}
-#resultado:focus {
-  outline: 0;
-}
-#botaoCopia {
-  margin-left: 85px;
-  margin-top: 43px;
-  padding: 5px 120px 0;
-  background: #d8dfe8;
-  color: rgb(68, 66, 66);
-  border: 1px solid #0a3871;
-  cursor: pointer;
-}
-
-footer p {
-  position: absolute;
-  padding: 60px 90px;
-  font-weight: bold;
-  color: #494242;
-}
-/*imagem do gitHub*/
-.github {
-  position: absolute;
-  padding: 40px 330px;
-}
-footer img {
-  cursor: pointer;
+  align-items: center;
+  justify-content: center;
 }

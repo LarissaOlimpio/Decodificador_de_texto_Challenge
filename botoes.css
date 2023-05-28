@@ -1,0 +1,24 @@
+.button {
+  display: flex;
+  gap: 2rem;
+}
+.botoes {
+  border-radius: 24px;
+  font-size: 2rem;
+  height: 67px;
+  width: 328px;
+  transition: 1s;
+  cursor: pointer;
+  text-decoration: none;
+}
+.botoes:hover {
+    font-size: 2.2rem;
+}
+#botaoCriptografar {
+    background-color: var(--azulEscuro);
+    color: var(--branco); 
+}
+#botaoDesincriptografar {
+    background: var(--azulClaro);
+    color: var(--cinza);
+}
