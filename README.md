@@ -3,7 +3,8 @@
 ## Introdução
 
 Esse projeto foi o primeiro Challenge da turma dois do projeto One Next Education, Alura com parceria da Oracle. 
-Este é um Programa que criptografa e descriptografa textos que o usuário digitar, além de contar com a funcionalidade de copiar o texto criptografado para decriptografar de forma prática e rápida. Além disso, a lógica foi feita utilizando método replace do JavaScript, onde ele pesquisa uma string em busca de um valor ou expressão regular e retorna uma nova string com o(s) valor(es) substituído(s).</br>
+Este é um Programa que criptografa e descriptografa textos que o usuário digitar, além de contar com a funcionalidade de copiar o texto criptografado para decriptografar de forma prática e rápida. <br>
+Além disso, a lógica foi feita utilizando o método replace do JavaScript, onde ele pesquisa uma string em busca de um valor ou expressão regular e retorna uma nova string com o(s) valor(es) substituído(s). Já para validação do input do usuário, utilizei o método Keypress para saber quais teclas o usuário digitou e comparar com uma regex a fim de que seja permitido apenas letras e se o usuário digitar letras maiúsculas, são transformadas em minúsculas antes de ser executada a função</br>
 As orientações sobre o Layout foram passadas pela equipe da Alura através do Figma e sobre os sprints por meio do Trello.
 
 
