@@ -3,10 +3,9 @@
 ## Introdução
 
 Esse projeto foi o primeiro Challenge da turma dois do projeto One Next Education, Alura com parceria da Oracle. 
-Este é um Programa que criptografa e descriptografa textos que o usuário digitar, além de contar com a funcionalidade de copiar o texto criptografado para decriptografar de forma prática e rápida.
-Até o momento o projeto não esta responsivo, porém agora que possuo um bom conhecimento na área do FrontEnd estou refatorando para entregar uma melhor experiência para o usuário. Em breve novas atualizações.
+Este é um Programa que criptografa e descriptografa textos que o usuário digitar, além de contar com a funcionalidade de copiar o texto criptografado para decriptografar de forma prática e rápida. Além disso, a lógica foi feita utilizando método replace do JavaScript, onde ele pesquisa uma string em busca de um valor ou expressão regular e retorna uma nova string com o(s) valor(es) substituído(s).
 
-> Processo de refatoração
+
 
 | :placard: Decodificador |     |
 | -------------  | --- |
