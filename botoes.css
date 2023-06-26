@@ -1,24 +1,61 @@
 .button {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .botoes {
-  border-radius: 24px;
-  font-size: 2rem;
-  height: 67px;
-  width: 328px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  height: 40px;
+  width: 150px;
   transition: 1s;
   cursor: pointer;
   text-decoration: none;
 }
 .botoes:hover {
-    font-size: 2.2rem;
+  font-size: 1rem;
 }
 #botaoCriptografar {
-    background-color: var(--azulEscuro);
-    color: var(--branco); 
+  background-color: var(--azulEscuro);
+  color: var(--branco);
 }
 #botaoDesincriptografar {
-    background: var(--azulClaro);
-    color: var(--cinza);
+  background: var(--azulClaro);
+  color: var(--cinza);
+}
+@media (min-width: 425px) {
+  .botoes {
+    font-size: 1.2rem;
+    height: 50px;
+    width: 180px;
+  }
+  .botoes:hover {
+    font-size: 1.3rem;
+  }
+}
+@media (min-width: 768px) {
+  .botoes {
+    font-size: 1.5rem;
+    height: 60px;
+    width: 300px;
+  }
+  .botoes:hover {
+    font-size: 2rem;
+  }
+}
+@media (min-width: 1200px) {
+  .button {
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .botoes {
+    font-size: 2rem;
+    height: 67px;
+    width: 328px;
+  }
+  .botoes:hover {
+    font-size: 2.2rem;
+  }
 }

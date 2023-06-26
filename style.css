@@ -14,19 +14,43 @@
 }
 body {
   background: var(--azulBackground);
+
 }
 main {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  
+  width: 100vw;
+  height: 80vh;
   
 }
 .logo {
   padding-top: 2rem;
   cursor: pointer;
+  width: 70px;
+  height: 60px;
 }
 .footer{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media(min-width:768px){
+  main{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  .logo{
+    width: auto;
+    height: auto;
+  }
+}
+@media(min-width:1200px){
+  .footer{
+    font-size: 1.2rem;
+  }
 }

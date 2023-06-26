@@ -58,7 +58,7 @@ function copiarTexto() {
   let textoCopiado = resultado.value;
   navigator.clipboard.writeText(textoCopiado);
   limpaTela();
-  input.focus();
+  //input.focus();definir o input
 }
 botaoCriptografar.onclick = criptografar;
 botaoDesincriptografar.onclick = desincriptografar;
